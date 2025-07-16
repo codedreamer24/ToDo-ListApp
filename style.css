@@ -1,0 +1,84 @@
+body {
+  background: radial-gradient(circle, #11003a, #340132);
+  color: rgb(0, 0, 0);
+
+  font-family: 'Segoe UI' sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app {
+  width: 70%;
+  text-align: center;
+  background: #960460;
+  padding: 60px;
+  border-radius: 20px;
+  box-shadow: 0 0 50px #0bfffb;
+  transform: rotateX(2deg);
+}
+
+.task-form input, .task-form button {
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  margin: 10px;
+}
+
+.task-form input {
+  width: 60%;
+  box-shadow: 0 0 10px #00ffff;
+}
+
+.task-form button {
+  background-color: #000000;
+  color: #ffffff;
+  cursor: pointer;
+  box-shadow: 0 0 20px #ffd900;
+}
+
+.timeline {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.timeline-item {
+  background-color: #f6f5f5;
+  margin: 20px;
+  padding: 15px 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #000000;
+  position: relative;
+  transition: 0.3s ease;
+}
+
+.timeline-item span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.timeline-item button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.done {
+  background-color: #000000;
+  color: #00e108;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cancel {
+  background-color: #000000;
+  color: #ff0000;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
